@@ -42,7 +42,7 @@ print("Generating embeddings...")
 start=time.time()
 
 embeddings = HuggingFaceEmbeddings(
-    model_name="all-MiniLM-L6-v2"
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
 
 print("Generating embeddings time taken...", time.time()-start)
