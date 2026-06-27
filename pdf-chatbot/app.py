@@ -22,7 +22,7 @@ if st.button("Ask"):
 
     if question.strip():
 
-        with st.clear("Searching PDF and generating answer..."):
+        with st.spinner("Searching PDF and generating answer..."):
 
             st.session_state.answer = ask_question(question)
 
